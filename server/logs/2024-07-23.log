@@ -1,0 +1,5 @@
+
+info: Created log: {"expression":"8*5","is_valid":true,"output":40,"_id":"669f399a1dab48ce0ba6de38","created_on":"2024-07-23T05:03:22.819Z","__v":0}
+info: Created log: {"expression":"5*8","is_valid":true,"output":40,"_id":"669f39e43d59757ebca6570d","created_on":"2024-07-23T05:04:36.164Z","__v":0}
+info: Created log: {"expression":"8*5","is_valid":true,"output":40,"_id":"669f3acccc632323b27f840e","created_on":"2024-07-23T05:08:28.600Z","__v":0}
+info: Created log: {"expression":"7-5","is_valid":true,"output":2,"_id":"669f3ad4cc632323b27f8411","created_on":"2024-07-23T05:08:36.414Z","__v":0}
