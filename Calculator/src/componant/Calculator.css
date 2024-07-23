@@ -51,11 +51,12 @@ button {
   border-radius: 10px;
   cursor: pointer;
   background: #f0f0f0;
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.1s;
 }
 
 button:active {
   background: #ddd;
+  transform: scale(0.95);
 }
 
 .equal {
@@ -145,6 +146,42 @@ button:active {
   }
 
   .log-table th, .log-table td {
+    font-size: 10px;
+  }
+}
+
+/* Mobile view adjustments */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .calculator {
+    width: 80%;
+    padding: 10px;
+    margin-right: 0;
+    box-shadow: none;
+  }
+
+  .display input {
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  button {
+    width: 22%;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .equal {
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .log-table th, .log-table td {
+    padding: 5px;
     font-size: 10px;
   }
 }
