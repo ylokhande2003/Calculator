@@ -15,9 +15,11 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "mongodb": "^6.8.0",
-    "mongoose": "^8.5.1",
+    "mongoose": "^8.5.2",
     "mongoose-sequence": "^6.0.1",
     "sequelize": "^6.37.3",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
     "sqlite3": "^5.1.7",
     "uuid": "^10.0.0",
     "winston": "^3.13.1"

@@ -1,0 +1,27 @@
+info: Server running on port 5000
+info: POST /api/logs - Request: {"expression":"5-6","isValid":true,"output":-1}
+info: POST /api/logs - Response: {"_id":21,"expression":"5-6","is_valid":true,"output":-1,"created_on":"2024-07-30T14:04:00.968Z","__v":0}
+info: POST /api/logs - Request: {"expression":"-15+55","isValid":true,"output":40}
+info: POST /api/logs - Response: {"_id":22,"expression":"-15+55","is_valid":true,"output":40,"created_on":"2024-07-30T14:04:17.015Z","__v":0}
+info: POST /api/logs - Request: {"expression":"405-8","isValid":true,"output":397}
+info: POST /api/logs - Response: {"_id":23,"expression":"405-8","is_valid":true,"output":397,"created_on":"2024-07-30T14:04:33.429Z","__v":0}
+info: POST /api/logs - Request: {"expression":"5-6","isValid":true,"output":-1}
+info: POST /api/logs - Response: {"_id":24,"expression":"5-6","is_valid":true,"output":-1,"created_on":"2024-07-30T14:17:32.275Z","__v":0}
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully
+info: Logs fetched successfully

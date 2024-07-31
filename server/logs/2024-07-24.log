@@ -1,0 +1,4 @@
+info: Server running on port 5000
+info: Server running on port 5000
+info: POST /api/logs - Request: {"expression":"72/9","isValid":true,"output":8}
+info: POST /api/logs - Response: {"_id":18,"expression":"72/9","is_valid":true,"output":8,"created_on":"2024-07-24T07:01:48.426Z","__v":0}
