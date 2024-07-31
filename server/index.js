@@ -13,14 +13,14 @@ const server = http.createServer(app);
 
 const io = socketIo(server, {
   cors: {
-    origin: 'http://localhost:5173', // Update this to your frontend's URL
+    origin: 'https://calcuator-from-yash.netlify.app', // Update this to your frontend's URL
     methods: ['GET', 'POST']
   }
 });
 
 app.use(bodyParser.json());
 app.use(cors({
-  origin: 'http://localhost:5173' // Update this to your frontend's URL
+  origin: 'https://calcuator-from-yash.netlify.app' // Update this to your frontend's URL
 }));
 
 mongoose.connect('mongodb+srv://yashlokhande20:uojFh8jz90JeyEA4@cluster0.lp2oclz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
