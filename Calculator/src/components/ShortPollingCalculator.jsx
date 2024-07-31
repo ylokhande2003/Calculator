@@ -14,7 +14,7 @@ const ShortPollingCalculator = () => {
 
   const fetchLogs = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/logs');
+      const response = await axios.get('https://calculator-ljcl.onrender.com/api/logs');
       setLogs(response.data);
     } catch (error) {
       console.error('Error fetching logs:', error);
@@ -51,7 +51,7 @@ const ShortPollingCalculator = () => {
     }
 
     try {
-      await axios.post('http://localhost:5000/api/logs', {
+      await axios.post('https://calculator-ljcl.onrender.com/api/logs', {
         expression: display,
         isValid,
         output

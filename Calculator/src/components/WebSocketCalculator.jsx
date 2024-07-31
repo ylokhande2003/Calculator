@@ -6,7 +6,7 @@ import './Calculator.css';
 const WebSocketCalculator = () => {
   const [display, setDisplay] = useState('');
   const [logs, setLogs] = useState([]);
-  const socket = io('http://localhost:5000'); // Ensure this matches your server's address
+  const socket = io('https://calculator-ljcl.onrender.com'); // Ensure this matches your server's address
 
   useEffect(() => {
     socket.on('log', (log) => {
@@ -48,7 +48,7 @@ const WebSocketCalculator = () => {
     }
 
     try {
-      await axios.post('http://localhost:5000/api/logs', {
+      await axios.post('https://calculator-ljcl.onrender.com/api/logs', {
         expression: display,
         isValid,
         output

@@ -13,7 +13,7 @@ const LongPollingCalculator = () => {
 
   const fetchLogs = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/logs');
+      const response = await axios.get('https://calculator-ljcl.onrender.com/api/logs');
       const fetchedLogs = response.data;
       setLogs(fetchedLogs);
       if (fetchedLogs.length > 0) {
@@ -27,7 +27,7 @@ const LongPollingCalculator = () => {
 
   const longPollLogs = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/api/logs?lastId=${lastId}`);
+      const response = await axios.get(`https://calculator-ljcl.onrender.com/api/logs?lastId=${lastId}`);
       const newLogs = response.data;
       if (newLogs.length > 0) {
         setLogs((prevLogs) => {
@@ -77,7 +77,7 @@ const LongPollingCalculator = () => {
     }
 
     try {
-      await axios.post('http://localhost:5000/api/logs', {
+      await axios.post('https://calculator-ljcl.onrender.com/api/logs', {
         expression: display,
         isValid,
         output
